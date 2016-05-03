@@ -67,7 +67,7 @@ static void canvas_update_proc(Layer *this_layer, GContext *ctx) {
   
     // top left
     choice = rand()%10;
-    draw_digit(ctx, digit_array[choice], s_main_window_center.x-digit_width-(tile_size/2), );  
+    draw_digit(ctx, digit_array[choice], s_main_window_center.x-digit_width-(tile_size/2), s_main_window_center.y-digit_height-(tile_size/2));  
     
     // top right
     choice = rand()%10;
